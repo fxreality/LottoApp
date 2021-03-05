@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_primary"
+    tools:context=".fragments.FragmentGenerate">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/generateNumber1Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/circle_for_numbers"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/generateNumber2Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/circle_for_numbers"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/generateNumber3Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/circle_for_numbers"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/generateNumber4Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/circle_for_numbers"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/generateNumber5Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/circle_for_numbers"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/generateStar1Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/star_for_numbers"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/generateStar2Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/star_for_numbers"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/generateButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="20dp"
+        android:text="Generate"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</FrameLayout>
